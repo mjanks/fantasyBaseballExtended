@@ -14,7 +14,7 @@ public class Main
 		System.out.println("******** Available Players to Draft *********");
 		System.out.println();
 		pitch.printList();
-		boolean run = true;
+		boolean run = true;  // SHOULD USE ENUM INSTEAD PERHAPS ???????
 		Scanner scan = new Scanner(System.in);
 		while (run)
 		{
